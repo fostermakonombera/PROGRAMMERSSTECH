@@ -28,10 +28,10 @@ body {
         display:block;
         text-align:center:
         background-color:rgb(240, 240, 240);}
-  .column{
+ /* .column{
         float:left;
         margin:0px;
-        padding:60px;}
+        padding:60px;}*/
   .main{
          padding:50px;
          margin:auto;
