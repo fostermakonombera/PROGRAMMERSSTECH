@@ -35,7 +35,8 @@ body {
   .main{
          padding:50px;
          margin:auto;
-         border: 10px solid white;
+      background-color:rgb(240, 240, 240);
+         border: 10px solid green;
          width:500px;
          float:center;
          }
@@ -51,9 +52,9 @@ body {
   background-color: #f1f1f1;
 }
 
-.page:first-child { /* Style the first section (home) differently */
-  background-color: rgba(3, 6, 22, 1);
-color:white;
+/*.page:first-child { /* Style the first section (home) differently */
+ /* background-color: rgba(3, 6, 22, 1);
+color:white;*/
 }
 
 /* Scroll Button Styles */
@@ -70,28 +71,32 @@ color:white;
 .about{
 padding:50px;
 margin:auto;
-border: 10px solid black;
+    background-color:rgb(240, 240, 240);
+border: 10px solid green;
 width:500px;
 float:center;}
 
 .contact{
 padding:50px;
 margin:auto;
-border: 10px solid black;
+    background-color:rgb(240, 240, 240);
+border: 10px solid green;
 width:500px;
 float:center;}
 
 .education{
 padding:50px;
 margin:auto;
-border: 10px solid black;
+    background-color:rgb(240, 240, 240);
+border: 10px solid green;
 width:500px;
 float:center;}
 
 .skills{
 padding:50px;
 margin:auto;
-border: 10px solid grey;
+    background-color:rgb(240, 240, 240);
+border: 10px solid green;
 width:500px;
 float:center;}
 [class*="col-"] {
