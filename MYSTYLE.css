@@ -28,10 +28,6 @@ body {
         display:block;
         text-align:center:
         background-color:rgb(240, 240, 240);}
- /* .column{
-        float:left;
-        margin:0px;
-        padding:60px;}*/
   .main{
          padding:50px;
          margin:auto;
@@ -52,10 +48,6 @@ body {
   background-color: #f1f1f1;
 }
 
-/*.page:first-child { /* Style the first section (home) differently */
- /* background-color: rgba(3, 6, 22, 1);
-color:white;*/
-}
 
 /* Scroll Button Styles */
 .scroll-down {
