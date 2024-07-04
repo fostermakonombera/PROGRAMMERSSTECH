@@ -5,6 +5,8 @@
 body {
     font-family: Arial, sans-serif;
 }
+footer{color:white;
+      text-align:center;}
 .header{
     background-color:rgba(217, 217, 217, 1);
     text-align:center;
