@@ -45,7 +45,7 @@ body {
   flex: 1; /* Make sections take up equal space */
   text-align: center;
   padding: 0px;
-  background-color: #f1f1f1;
+  background-color:rgba(3, 6, 22, 1);
 }
 
 
