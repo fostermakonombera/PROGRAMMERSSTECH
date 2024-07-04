@@ -36,10 +36,6 @@ body {
          width:500px;
          float:center;
          }
-  .row:after{
-        content:"";
-        display:table;
-        clear:both;}
       /* Section Styles */
 .page {
   flex: 1; /* Make sections take up equal space */
