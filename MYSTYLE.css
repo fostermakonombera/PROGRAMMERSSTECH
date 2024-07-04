@@ -12,13 +12,13 @@ body {
     padding:10px;
     margin:0px;
     color:black;
-    width:500px;
+    width:100%;
     }
    .menu ul{
         list-style-type:none;
         padding:0px;
         margin:0px;
-        width:500px;
+        width:100%;
         background-color:rgb(240, 240, 240);}
     li{
         float:left;}
