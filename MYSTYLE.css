@@ -92,6 +92,42 @@ float:center;}
   float: left;
   padding: 15px;
 }
+/* Menu Toggle Button Styles */
+.dropdown {
+  display: block; /* Hide on large screens by default */
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.menu-toggle__bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin-bottom: 5px;
+}
+.dropdown {
+  position: relative;
+  display: none;
+
+}
+
+.content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(5,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .content {
+  display: block;
+}
+
 
 @media only screen and (max-width: 599px) {
   /* For mobile phones: */
@@ -129,4 +165,15 @@ float:center;}
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
+}
+
+
+/* Media Queries for Mobile Styles */
+@media only screen and (max-width: 599px) {
+  .menu2 {  /* Hide navigation on small screens */
+    display: none;
+  }
+  .dropdown {  /* Show menu toggle button on small screens */
+    display: block;
+  }
 }
